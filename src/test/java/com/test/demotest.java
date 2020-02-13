@@ -17,6 +17,7 @@ public class demotest {
 		driver.get("http://www.google.com");
 		System.out.println("welcome");
 		System.out.println("test");
+		System.out.println("test");
 		String title= driver.getTitle();
 		System.out.println(title);
 		driver.close();
