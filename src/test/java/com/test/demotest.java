@@ -15,7 +15,10 @@ public class demotest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://www.google.com");
-
+		System.out.println("welcome");
+		System.out.println("test");
+		System.out.println("test");
+		System.out.println("test1");
 		String title= driver.getTitle();
 		System.out.println(title);
 		driver.close();
