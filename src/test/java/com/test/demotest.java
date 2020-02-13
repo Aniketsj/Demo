@@ -18,6 +18,7 @@ public class demotest {
 		System.out.println("welcome");
 		System.out.println("test");
 		System.out.println("test");
+		System.out.println("test1");
 		String title= driver.getTitle();
 		System.out.println(title);
 		driver.close();
