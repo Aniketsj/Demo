@@ -23,6 +23,7 @@ public class demotest {
 		String title= driver.getTitle();
 		System.out.println(title);
 		System.out.println("test");
+		System.out.println("test");
 		
 		driver.close();
 	}
