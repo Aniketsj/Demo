@@ -2,6 +2,7 @@ package com.test;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -27,6 +28,7 @@ public class demotest {
 >>>>>>> dce3bcc6c9e1597d9d5fd3b722741d04c05f7639
 		String title= driver.getTitle();
 		System.out.println(title);
+		
 		driver.close();
 	}
 
