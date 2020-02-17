@@ -29,6 +29,7 @@ public class demotest {
 		System.out.println("test1234");
 		System.out.println("new");
 		System.out.println("1");
+		System.out.println("12");
 		driver.close();
 	}
 
