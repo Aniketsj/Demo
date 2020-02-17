@@ -19,7 +19,12 @@ public class demotest {
 		System.out.println("test");
 		System.out.println("test");
 		System.out.println("test1");
+<<<<<<< HEAD
 		System.out.println("qwe");
+=======
+		System.out.println("1");
+		System.out.println("2");
+>>>>>>> dce3bcc6c9e1597d9d5fd3b722741d04c05f7639
 		String title= driver.getTitle();
 		System.out.println(title);
 		driver.close();
