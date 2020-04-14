@@ -21,7 +21,9 @@ public class demotest {
 		System.out.println("test1");
 		System.out.println("test1");
 		String title= driver.getTitle();
+		System.out.println(title+"test");
 		System.out.println(title);
+		
 		driver.close();
 		System.out.println("test1");
 	}
