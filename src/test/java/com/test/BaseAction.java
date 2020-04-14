@@ -292,7 +292,11 @@ public class BaseAction {
 		return size;
 	}
 	
+
 	public int getSizeOfElements3(By locator) throws CustomException
+
+	public int getSizeOfElements2(By locator) throws CustomException
+
 	{
 		int size;
 		try {
