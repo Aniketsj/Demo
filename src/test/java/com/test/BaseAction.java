@@ -292,5 +292,19 @@ public class BaseAction {
 		return size;
 	}
 	
+	public int getSizeOfElements2(By locator) throws CustomException
+	{
+		int size;
+		try {
+			size=TestGlobals.driver().findElements(locator).size();
+		}
+		catch(Exception e)
+		{
+			log.info("error while fetching size");
+			throw new CustomException("error while fetching size");
+		}
+		return size;
+	}
+	
 }
 
